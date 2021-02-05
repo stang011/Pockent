@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="net.androidbootcamp.jayschimmoller.entomologylog.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_nav_gallery"
+            app:destination="@id/nav_logs" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_slideshow"
+            app:destination="@id/nav_print" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_tools"
+            app:destination="@id/nav_record" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_logs"
+        android:name="net.androidbootcamp.jayschimmoller.entomologylog.ui.Logs.LogFragment"
+        android:label="@string/menu_Logs"
+        tools:layout="@layout/fragment_logs" />
+
+    <fragment
+        android:id="@+id/nav_print"
+        android:name="net.androidbootcamp.jayschimmoller.entomologylog.ui.Print.PrintFragment"
+        android:label="@string/menu_print"
+        tools:layout="@layout/fragment_print" />
+
+    <fragment
+        android:id="@+id/nav_record"
+        android:name="net.androidbootcamp.jayschimmoller.entomologylog.ui.Record.RecordFragment"
+        android:label="@string/menu_Record"
+        tools:layout="@layout/fragment_record" >
+        <argument
+            android:name="fileManager"
+            app:argType="net.androidbootcamp.jayschimmoller.entomologylog.FileManager" />
+        <action
+            android:id="@+id/action_nav_record_to_mobile_navigation"
+            app:destination="@id/mobile_navigation" />
+    </fragment>
+
+</navigation>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/alertTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#25371d"
+        android:text="@string/alertTitle"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textColorHighlight="#25371d"
+        android:textColorLink="#25371d"
+        android:textCursorDrawable="@drawable/color_cursor"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:fontFamily="serif" />
+
+    <TextView
+        android:id="@+id/alertName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:text="Name"
+        android:textColor="@android:color/black"
+        android:textColorHighlight="#25371d"
+        android:textColorLink="#25371d"
+        android:textCursorDrawable="@drawable/color_cursor"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:fontFamily="serif" />
+
+    <TextView
+        android:id="@+id/alertFamily"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:text="Family"
+        android:textColor="@android:color/black"
+        android:textColorHighlight="#25371d"
+        android:textColorLink="#25371d"
+        android:textCursorDrawable="@drawable/color_cursor"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:fontFamily="serif" />
+
+    <TextView
+        android:id="@+id/alertGenus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:textColor="@android:color/black"
+        android:textColorHighlight="#25371d"
+        android:textColorLink="#25371d"
+        android:textCursorDrawable="@drawable/color_cursor"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:fontFamily="serif" />
+
+    <TextView
+        android:id="@+id/alertSpecies"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:textColor="@android:color/black"
+        android:textColorHighlight="#25371d"
+        android:textColorLink="#25371d"
+        android:textCursorDrawable="@drawable/color_cursor"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:fontFamily="serif" />
+
+    <TextView
+        android:id="@+id/alertMethod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:textColor="@android:color/black"
+        android:textColorHighlight="#25371d"
+        android:textColorLink="#25371d"
+        android:textCursorDrawable="@drawable/color_cursor"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:fontFamily="serif" />
+
+    <TextView
+        android:id="@+id/alertLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:textColor="@android:color/black"
+        android:textColorHighlight="#25371d"
+        android:textColorLink="#25371d"
+        android:textCursorDrawable="@drawable/color_cursor"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:fontFamily="serif" />
+
+    <TextView
+        android:id="@+id/alertDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:textColor="@android:color/black"
+        android:textColorHighlight="#25371d"
+        android:textColorLink="#25371d"
+        android:textCursorDrawable="@drawable/color_cursor"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:fontFamily="serif" />
+
+    <TextView
+        android:id="@+id/alertNotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:textColor="@android:color/black"
+        android:textColorHighlight="#25371d"
+        android:textColorLink="#25371d"
+        android:textCursorDrawable="@drawable/color_cursor"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:fontFamily="serif" />
+
+</LinearLayout>

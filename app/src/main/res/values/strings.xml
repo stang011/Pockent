@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Pockent</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Entomology Log</string>
+    <string name="nav_header_subtitle">Menu</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Delete Data</string>
+
+    <string name="menu_home">Home</string>
+
+    <string name="menu_Record">Record a Log</string>
+    <string name="menu_Logs">Logs</string>
+    <string name="menu_print">Print Label</string>
+
+    <string name="common_name">Name:</string>
+    <string name="Species">Species:</string>
+    <string name="Genus">Genus:</string>
+    <string name="Family">Family:</string>
+    <string name="Method">Method:</string>
+    <string name="Date">Date:</string>
+    <string name="Location">Location:</string>
+    <string name="Notes">Notes:</string>
+    <string name="comma">,</string>
+    <string name="north">N</string>
+    <string name ="west">W</string>
+    <string name="clear">Clear</string>
+    <string name="save">Save</string>
+
+    <string name="Pock">Pock-</string>
+    <string name="ent">Ent</string>
+
+    <string name="welcome">Welcome to\nPock-Ent:</string>
+    <string name="app_description">A pocket entomology app that allows you to log insect capture details while in the field.</string>
+    <string name="record_description">Select &quot;Record a Log&quot; to add a new insect log to your collection.</string>
+    <string name="logs_description">Select &quot;Logs&quot; to view or delete any of the insects in your collection.</string>
+    <string name="print_description">Select &quot;Print Label&quot; to print labels containing a log\'s information.</string>
+    <string name="editInstructions">To update or edit a current log: record a new log with the updated information, then delete the old collection.</string>
+
+    <string name="check">Check</string>
+    <string name="reset">Reset</string>
+    <string name="nope">Feature not implemented!</string>
+
+    <string name="alertTitle">Selected Insect Log</string>
+    <string name="nameHint">Monarch Butterfly</string>
+    <string name="familyHint">Nymphalidae</string>
+    <string name="genusHint">Danaus</string>
+    <string name="speciesHint">plexippus</string>
+    <string name="methodHint">Net caught</string>
+    <string name="latHint">43.4195</string>
+    <string name="longHint">83.9508</string>
+    <string name="notesHint">Butteryfly with a three inch wingspan, and an orange body with black stripes and white spots. Caught while bike riding through the woods on the rail trail.</string>
+</resources>
